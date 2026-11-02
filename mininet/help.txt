@@ -1,0 +1,4 @@
+1. run buildWAN.py
+2. Controller machine: activate ONOS controller application
+3. Controller machine: start script
+4. Start script
