@@ -1,0 +1,25 @@
+#
+# Example of using histogram modes
+#
+reset
+
+#set terminal png transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+#set terminal png enhanced font "arial,10" fontscale 1.0 size 600, 400 
+#set output 'test.png'
+
+set title "US immigration from Europe by decade"
+set datafile missing "-"
+set xtics nomirror rotate by -45
+set key noenhanced
+#
+# First plot using linespoints
+set style data linespoints
+#plot 'immigration.dat' using 2:xtic(1) title columnheader(2), \
+#plot 'degree.txt' using 2:xtic(1) title columnheader(2), \
+#for [i=3:2383] '' using i title columnheader(i)
+#
+plot 'degree.txt' using 2:xtic(1) title columnheader(2) #, \
+#for [i=3:4] '' using i title columnheader(i)
+#
+pause -1 "<cr> to finish histogram demo"
+reset
