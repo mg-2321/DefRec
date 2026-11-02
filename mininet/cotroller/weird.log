@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2018-11-27-01-19-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1543295397.598628	CSVOAj4zmBDrg0ci5j	fe80::e8c8:8c2f:4d6c:aa34	5353	ff02::fb	5353	DNS_Conn_count_too_large	-	F	bro
+1543295397.598982	CuKmvS1FEqJ2tdw7mi	134.197.42.146	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295397.601096	CWpj7m4sRJMVeR5RV3	134.197.42.23	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295399.135029	-	-	-	-	-	non_ip_packet_in_ethernet	-	F	bro
+1543295399.183899	CXZ4qV1u57tchQTeq3	134.197.41.213	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295401.234348	CwAeQF1MIGg2iR2YR4	134.197.40.18	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295402.387714	Cieqlr4IeGDgRSzaZf	134.197.41.148	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295402.842037	CRLirE3atA3qrKwg13	134.197.41.251	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295404.644833	C7q4g12Q4regzRIOF7	134.197.43.60	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295405.647167	CFBEu72FxenqnBQvxl	fe80::3ba8:40a6:c503:188b	5353	ff02::fb	5353	DNS_Conn_count_too_large	-	F	bro
+1543295405.647512	CXaYlx2vesoVRBRXv4	134.197.42.165	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295409.981248	-	-	-	-	-	unknown_protocol_103	-	F	bro
+1543295423.269056	Corjtl4PwYPvHnYKL6	134.197.40.163	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543295433.899903	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1543295562.217664	C8jUKc2nL79FqjiDS9	134.197.40.60	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296002.607508	CkZAFh3mxsqI3ZNBRk	134.197.42.23	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296008.841827	CO5HOe2tcQ2Tnq9Fy7	134.197.41.251	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296009.114273	-	-	-	-	-	non_ip_packet_in_ethernet	-	F	bro
+1543296009.641650	CNwOZG3CRXQy5EmN36	134.197.43.60	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296011.640222	CCt7Z42lVYWtwxq3je	134.197.42.165	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296014.239097	ClkRKi4BLQkCkBl0W3	134.197.40.18	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296025.884690	-	-	-	-	-	unknown_protocol_103	-	F	bro
+1543296061.939387	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1543296140.769979	COMSee2uQLTYcVzm9i	134.197.42.40	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296152.399005	C5bwMp4otL4lIT2Srf	134.197.41.148	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+1543296159.865502	CuKmvS1FEqJ2tdw7mi	134.197.42.146	5353	224.0.0.251	5353	DNS_Conn_count_too_large	-	F	bro
+#close	2018-11-27-01-19-19

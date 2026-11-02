@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2018-11-27-01-19-17
+#fields	ts	id	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count
+1543295799.272778	FONf682sy28YbdxzEd	3	0E31A17B89C2D3F1641210BDBFA10D52	CN=*.dropbox.com,OU=Dropbox Ops,O=Dropbox\\, Inc,L=San Francisco,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	1534402800.000000	1604606400.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.dropbox.com,dropbox.com	-	-	-	F	-
+1543295799.272778	FmHL14mhAS9tCwqb	3	04E1E7A4DC5CF2F36DC02B42B85D159F	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	1382468400.000000	1855854000.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0
+#close	2018-11-27-01-19-19
