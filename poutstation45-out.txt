@@ -1,0 +1,3 @@
+ms(1543346863230) INFO    manager - Starting thread (0)
+channel state change: OPENING
+channel state change: OPEN
